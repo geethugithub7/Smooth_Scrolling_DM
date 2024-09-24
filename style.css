@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+div{
+    height: 100vh;
+    display: flex;
+    align-items: center;  /*Aligns items along the cross axis (vertically)*/
+    justify-content: center;  /*Aligns items along the main axis (horizontally) in a flex container.*/
+
+    display: flex;
+
+
+}
+#section-1{
+    
+    background-color: rgb(179, 223, 223);
+    background-image: url(images/section1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#section-2{
+    background-color: rgb(120, 174, 174);
+    background-image: url(images/section2.jpg);
+    background-size: cover;
+    background-position:center ;
+
+  
+}
+#section-1 a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: black;
+    padding: 12px;
+    font-size: 50px;
+    font-style: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    mix-blend-mode:overlay; /*Blend words*/
+}
+#section-2 a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: black;
+    padding: 10px;
+    font-size: 55px;
+    font-style: bold;
+    font-weight: 100;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    mix-blend-mode:overlay; /*Blend words*/
+}
